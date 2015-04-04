@@ -1,2 +1,7 @@
-#!/usr/bin/env bash
-node ./app.js $@
+#!/usr/bin/env node
+var path = require('path'),
+	callslipPath = path.join(process.argv[1], '../..');
+
+process.chdir(callslipPath);
+
+require(callslipPath + '/lib/cli').run();

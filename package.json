@@ -1,8 +1,7 @@
 {
   "name": "callslip",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
-  "main": "app.js",
   "bin": {
     "callslip": "./bin/callslip"
   },
@@ -14,6 +13,10 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http@github.com:adelura/callslip-client.git"
   },
   "author": "Artur Delura",
   "license": "MIT"
