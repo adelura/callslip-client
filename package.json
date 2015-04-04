@@ -1,0 +1,20 @@
+{
+  "name": "callslip",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "callslip": "./bin/callslip"
+  },
+  "dependencies": {
+    "nconf": "^0.7.1",
+    "nomnom": "^1.8.1",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artur Delura",
+  "license": "MIT"
+}
